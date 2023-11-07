@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your XO Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>XO Game</h1>
+    </header>
+    <section id="game-description">
+        <p><strong>Tic-Tac-Toe</strong>, or as some cool folks like to call it, <strong>XO Game</strong>! It's a timeless battle
+            of wits and strategy played on a 3x3 grid.</p>
+    </section>
+    <section id="download-section">
+        <button id="download-button" onclick="window.location.href='https://drive.google.com/file/d/1a33fHAu9TOpeMcdah__wmAz1vV39He_h/view?usp=drive_link'">
+            Download Game
+        </button>
+    </section>
+    <!-- Add this script tag at the end of the body in your HTML file -->
+<script>
+    document.getElementById('download-button').addEventListener('click', function() {
+        // Add your download logic here
+        alert('Downloading XO game!');
+    });
+</script>
+
+</body>
+
+</html>
